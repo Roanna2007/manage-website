@@ -16,7 +16,6 @@
 body {
   font-family: "Be Vietnam Pro", sans-serif;
   font-weight: 500;
-  color: var(--dark-blue);
   background-image: url(../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
   background-position: right;
@@ -27,13 +26,26 @@ body {
   margin: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-blue);
+}
+
+p {
+  color: var(--dark-grayish-blue);
+}
+
 /* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  padding-block: 2rem;
+  padding-top: 3rem;
 }
 
 .navbar ul {
@@ -45,7 +57,8 @@ header {
 }
 
 .navbar ul li a {
-  margin-left: 20px;
+  margin-left: 30px;
+  color: var(--dark-blue);
 }
 
 header a {
@@ -57,4 +70,37 @@ header a {
   border-radius: 20px;
   color: #fff;
   padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Intro */
+.intro {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-block: 5rem;
+}
+
+.intro-heading {
+  color: var(--dark-blue);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro-text {
+  color: var(--dark-grayish-blue);
+  line-height: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.intro-item {
+  width: 500px;
+  justify-self: center;
+}
+
+.intro-item2 {
+  justify-self: end;
 }
