@@ -140,3 +140,64 @@ h2 {
   /* background: var(--bright-red); */
   margin-right: 30px;
 }
+
+/* Testimonials */
+.testimonials {
+  margin-block: 5rem;
+}
+
+.testimonials-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.testimonial-container div {
+  background: var(--very-light-gray);
+  text-align: center;
+  padding: 1rem;
+  margin-block: 3rem;
+}
+
+.testimonial-container div img {
+  width: 60px;
+  height: 60px;
+}
+
+.testimonials .start-btn {
+  display: block;
+  max-width: 140px;
+  margin: auto;
+}
+
+/* Simplify */
+.simplify {
+  background: var(--bright-red);
+  background-image: url(../images/bg-simplify-section-desktop.svg);
+  height: 200px;
+}
+
+.simplify-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 3.5rem;
+}
+
+.simplify h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.white-btn {
+  background: #fff;
+  border-radius: 20px;
+  color: var(--bright-red);
+  padding: 10px 20px;
+  text-decoration: none;
+}
