@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -45,7 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  padding-top: 3rem;
+  margin-top: 3rem;
 }
 
 .navbar ul {
@@ -80,7 +80,7 @@ header a {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  padding-block: 5rem;
+  margin-block: 5rem;
 }
 
 .intro-heading {
@@ -103,4 +103,40 @@ header a {
 
 .intro-item2 {
   justify-self: end;
+}
+
+/* About */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  /* align-items: center; */
+  justify-content: center;
+  margin-block: 5rem;
+}
+
+.about h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
+
+.about-box1 {
+  width: 400px;
+}
+
+.about-box1 h1 {
+  font-size: 2rem;
+}
+
+.about-items {
+  display: flex;
+}
+
+.about-items span {
+  /* background: var(--bright-red); */
+  margin-right: 30px;
 }
